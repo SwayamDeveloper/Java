@@ -1,4 +1,5 @@
 package interview;
+
 import java.util.Scanner;
 
 //A=65,a=97
@@ -9,28 +10,26 @@ import java.util.Scanner;
 public class ASCII {
 
 	public static void main(String[] args) {
-		
-		//declare character
+
+		// declare character
 		char ch;
-		
-		//declare integer
+
+		// declare integer
 		int value;
-		
-		//create Scanner class object
-		//to read input
-		Scanner sc= new Scanner(System.in);
-		
-		//read alphabet
+
+		// create Scanner class object
+		// to read input
+		Scanner sc = new Scanner(System.in);
+
+		// read alphabet
 		System.out.print("Enter an alphabet: ");
-		ch = sc.next().charAt(0);	
-		//convert char to ascii value
+		ch = sc.next().charAt(0);
+		// convert char to ascii value
 		value = ch;
-		
-		//display ascii value
-		System.out.println("ASCII value of "+ch+"=" +value);
-		
-		
+
+		// display ascii value
+		System.out.println("ASCII value of " + ch + "=" + value);
+
 	}
-	
-	
+
 }
