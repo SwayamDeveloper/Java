@@ -7,7 +7,7 @@ public class Calculator {
 		Scanner sc = new Scanner(System.in);
 
 		// taking input from the user using the Scanner
-		// class
+		// class/
 		System.out.print("Enter the first and the Second number - ");
 		int a = sc.nextInt();
 		int b = sc.nextInt();

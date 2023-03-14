@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Total_Average {
 	public static void main(String[] marks) {
-    // declare variables to store marks
+
+		// declare variables to store marks
 		int mark1, mark2,mark3;
 		
 		// declare variable to store sum and average marks

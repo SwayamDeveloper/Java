@@ -16,6 +16,6 @@ public class currency_converter {
 
 		System.out.println("The equivalent amount in USD is: $" + usd);
 
-	}
+	} 
 
 }
